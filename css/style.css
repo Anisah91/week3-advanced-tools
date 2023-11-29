@@ -106,3 +106,27 @@ p {
   background: #328dc6;
   color: beige;
 }
+
+footer {
+  text-align: center;
+  color: #8a623c;
+  font-size: 16px;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 73px;
+  }
+  footer {
+    font-size: 14px;
+  }
+  .weather-heading {
+    font-size: 37px;
+  }
+}
+
+@media (min-width: 820px) {
+  h1 {
+    font-size: 97px;
+  }
+}
