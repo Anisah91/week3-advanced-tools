@@ -85,7 +85,7 @@ p {
   color: white;
 }
 .coffee-app,
-.timezone-app,
+.world-clock-app,
 .weather-app {
   border-radius: 4px;
   padding: 20px 15px;
@@ -98,11 +98,11 @@ p {
 }
 
 .weather-app {
-  background: #d0e5f0;
+  background: darkcyan;
   color: #f2b100;
 }
 
-.timezone-app {
+.world-clock-app {
   background: #328dc6;
   color: beige;
 }
@@ -117,15 +117,34 @@ footer {
   h1 {
     font-size: 73px;
   }
+  h2 {
+    text-align: center;
+  }
+
+  .coffee-heading {
+    text-align: center !important;
+  }
+  .timezone-paragraph {
+    justify-content: space-around;
+  }
   footer {
     font-size: 14px;
   }
   .weather-heading {
     font-size: 37px;
   }
+  .coffee-app,
+  .world-clock-app,
+  .weather-app {
+    width: 100%;
+    display: block;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 22px;
+  }
 }
 
-@media (min-width: 820px) {
+@media (min-width: 768px) {
   h1 {
     font-size: 97px;
   }
